@@ -1,8 +1,10 @@
+import TrackPurchase from '../components/TrackPurchase';
+
 export default function Home() {
   return (
     <div>
-      <h1>Meta CAPI Server - Test</h1>
-      <p>Server Next.js in esecuzione correttamente!</p>
+      <h1>Benvenuto su Meta CAPI Serve</h1>
+      <TrackPurchase />
     </div>
   );
 }
