@@ -6,7 +6,7 @@ export default function TrackPurchase() {
       event_name: "Purchase",
       event_time: Math.floor(Date.now() / 1000),
       user_data: {
-        em: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" // email SHA256 di test@example.com
+        em: "test@example.com"
       },
       custom_data: {
         currency: "EUR",
